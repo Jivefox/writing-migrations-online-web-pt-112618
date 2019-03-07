@@ -1,3 +1,5 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
-  add_column :grade, :birthdate,
-end
+
+  def change
+    add_column :grade, :birthdate,
+  end
